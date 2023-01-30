@@ -1,0 +1,13 @@
+{
+    "cfg_scale": 7,
+    "clip_guidance_preset": "NONE",
+    "height": 512,
+    "width": 512,
+    "samples": 4,
+    "steps": 30,
+    "text_prompts": [
+      {
+        "text": "{{.Request}}",
+        "weight": 1
+      }		]
+}
